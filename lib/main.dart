@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
-void main() => runApp(CustomFont_Picker());
+void main() => runApp(CustomFontPicker());
 
-class CustomFont_Picker extends StatelessWidget {
+class CustomFontPicker extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
